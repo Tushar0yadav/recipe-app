@@ -7,9 +7,9 @@ import RecipeCard from "../components/RecipeCard";
 
 const RecipeListScreen = () => {
 	return (
-		<SafeAreaView style={{ flex: 1, marginHorizontal: 16 }}>
+		<SafeAreaView style={{ flex: 1, marginHorizontal: 15, marginTop: 30}}>
 			{/* render header */}
-			<Header headerText={"Hi, John "} headerIcon={"bell-o"} />
+			<Header headerText={"Hi, Tushar "} headerIcon={"bell-o"} />
 
 			{/* Search Filter */}
 			<SearchFilter icon="search" placeholder={"enter your fav recipe"} />

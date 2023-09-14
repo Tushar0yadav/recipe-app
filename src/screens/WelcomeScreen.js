@@ -6,11 +6,11 @@ const WelcomeScreen = ({ navigation }) => {
 		<View style={{ flex: 1, alignItems: "center" }}>
 			<Image
 				source={require("../../assets/images/welcome1.png")}
-				style={{ marginTop: 30 }}
+				style={{ marginTop: 30,height:520, width:440 }}
 			/>
 
 			<Text style={{ color: "#f96163", fontSize: 22, fontWeight: "bold" }}>
-				40K+ Premium Recipes
+				50K+ Premium Recipes
 			</Text>
 
 			<Text

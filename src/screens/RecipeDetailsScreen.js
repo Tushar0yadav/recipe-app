@@ -14,9 +14,9 @@ import { FontAwesome } from "@expo/vector-icons";
 const RecipeDetailsScreen = ({ navigation, route }) => {
 	const { item } = route.params;
 	return (
-		<View style={{ backgroundColor: item.color, flex: 1 }}>
-			<SafeAreaView style={{ flexDirection: "row", marginHorizontal: 16 }}>
-				<Pressable style={{ flex: 1 }} onPress={() => navigation.goBack()}>
+		<View style={{ backgroundColor: item.color, flex: 1, }}>
+			<SafeAreaView style={{ flexDirection: "row", marginHorizontal: 16, marginTop:30 }}>
+				<Pressable style={{ flex: 1,}} onPress={() => navigation.goBack()}>
 					<FontAwesome name={"arrow-circle-left"} size={28} color="white" />
 				</Pressable>
 
